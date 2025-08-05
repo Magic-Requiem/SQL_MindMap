@@ -1,24 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>SQL Mindmap</title>
-<style>
-  .category {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    padding: 25px;
-    margin: 15px;
-    border-radius: 15px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.1);
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-</style>
+    <title></title>
+    <style>
+        body {
+            background-color: black;
+            color: #03A062;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .prompt {
+            font-size: 18px;
+        }
+        
+        input {
+            background-color: black;
+            color: #03A062;
+            border: none;
+            outline: none;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Learn SQL Basics</h1>
-  <div class="category">
-    <h2>DDL - Data Definition Language</h2>
-    <p>Commands to define database structure</p>
-  </div>
-  </body>
+    <div class="prompt">
+        Enter your name to learn the basics of SQL: <input type="text" id="nameInput">
+    </div>
+</body>
 </html>
